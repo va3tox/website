@@ -10,6 +10,19 @@
 #weather:hover{
     opacity:1;
     }
+#update::after{
+    content: " \23DA";
+    font-size: .6em;
+    color: #6d6d6d;
+    }
+h3{
+    margin-bottom: 0;
+    display: inline-block;
+    }
+hr{
+    max-width:700px;
+    border: 1px dashed #dcdcdc;
+    }
 </style>
 </head>
 <body>
@@ -31,20 +44,29 @@
     
 <p><small>QTH:FN03 | info[at]va3tox[dot]org </small> | <a href="https://t.me/VA3TOX">Join our Telegram!</a></p>
 
-    <hr style="max-width:700px;">
-    <h2>News</h2>
-   <h3> Club Meeting</h3>
-    <br>Thursday, Jul 29 2019, 19:15 
+    <hr>
+    <h2>Updates</h2>
+ <article id="update">
+    <h3> Club Meeting</h3>
+    <p>Thursday, Jul 29 2019, 19:15 
     <br>@ Toronto (<a href="mailto:info@va3tox.org?subject=Meeting">Contact for location</a>)
-   <p>***</p>
+     </p>
+ </article>
+ <article id="update"> 
    <h3> Amateur radio exam</h3>
-    <br>Thursday, Jul 11 2019, 17:30 - 19:00 
+    <p>Thursday, Jul 11 2019, 17:30 - 19:00 
     <br>@ Toronto's CSI Spadina 
     <br>(No Charge. Must <a href="mailto:info@va3tox.org?subject=Test%20Registration">register</a> prior)
-   <p>***</p>
-   <h3> Club Meeting</h3> 
-    <br>Thursday, Jul 04 2019, 18:30 
+     </p>
+ </article>
+ <article id="update">
+    <h3> Club Meeting</h3>
+    <p>Thursday, Jul 04 2019, 18:30 
     <br>@ Toronto (<a href="mailto:info@va3tox.org?subject=Meeting">Contact for location</a>)
-   <p>***</p>
+        </p>
+ </article>
+ <section id="footer">
+     <hr>
    <p><img src="3292179.png"></p>
     <p><img src="http://www.hamqsl.com/solar101vhfpic.php" id="weather"></p>
+ </section>
